@@ -9,6 +9,7 @@
 @import "more.css";
 @import "settings.css";
 @import "chat.css";
+@import "mobile.css";
 
 * {
   box-sizing: border-box;
@@ -25,7 +26,7 @@ body {
 
 main {
   margin-top: 124px;
-  animation: fadeIn 0.5s ease-in-out;
+  animation: fadeIn 0.2s ease-in-out;
 }
 
 .header-wrapper {
@@ -44,7 +45,7 @@ a {
 
 @keyframes fadeIn {
   from {
-    transform: translateY(20px);
+    transform: translateY(7px);
   }
   to {
     transform: none;

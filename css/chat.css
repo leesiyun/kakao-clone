@@ -66,7 +66,7 @@
 .chat__write-icon .fa-arrow-up {
   margin-left: 4px;
   font-size: 18px;
-  background-color: #ffe702;
+  background-color: #fce006;
   padding: 4px 5px;
   display: flex;
   justify-content: center;
@@ -133,6 +133,12 @@
   width: 40px;
   border-radius: 50%;
   margin-right: 15px;
+}
+
+.incoming-message img:hover {
+  animation: spin 1s linear infinite;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 8px 16px -8px,
+    rgba(0, 0, 0, 0.04) 0px -6px 16px -6px;
 }
 
 .incoming-message .message__author {

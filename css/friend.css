@@ -9,8 +9,10 @@
   width: 50px;
   border-radius: 50%;
 }
-.friend__avatar:focus {
+.friend__avatar:hover {
   animation: spin 1s linear infinite;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 8px 16px -8px,
+    rgba(0, 0, 0, 0.04) 0px -6px 16px -6px;
 }
 
 .friend__avatar.g-avatar {
