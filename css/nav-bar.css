@@ -6,6 +6,9 @@
   left: 0px;
   bottom: 0px;
   border-top: 1px solid #f7f7f7;
+  /*transform: translateY(50px);
+  animation: showNavBar 0.2s ease-out forwards;
+  animation-delay: 0.3s;*/
 }
 
 .nav .nav__list {
@@ -33,4 +36,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;  /*border-radius: 50%;/
+  border-radius: 10px; /*border-radius: 50%;*/
+}
+
+/*@keyframes showNavBar {
+  from {
+    transform: translateY(50px);
+  }
+  to {
+    transform: none;
+  }
+}*/
