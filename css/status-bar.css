@@ -6,6 +6,7 @@
   padding: 17px 15px;
   display: flex;
   justify-content: space-between;
+  font-size: 15px;
   color: #656565; /*opacity: 0.7;*/
 }
 

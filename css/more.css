@@ -1,15 +1,20 @@
+.more {
+  margin: 130px 20px 0px 20px;
+}
+
 .more .more__btn-list {
-  padding: 30px 20px 20px 20px;
+  padding: 25px 20px 20px 37px;
   display: flex;
   align-items: center;
 }
 .more .more__suggestions-list {
-  padding: 20px 16px;
+  padding: 20px;
   display: flex;
   align-items: center;
 }
 
 .more__btn-list .more__btn {
+  width: 10%;
   margin-right: 53px;
   display: flex;
   flex-direction: column;
@@ -17,7 +22,7 @@
   cursor: pointer;
 }
 .more .suggestion {
-  margin-right: 22px;
+  margin-right: 12px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,19 +30,17 @@
 }
 
 .more__btn-icon i {
+  width: 10%;
   font-size: 50px;
 }
 
-.more__btn-icon .fa-brush {
-  margin-left: -5px;
-}
 .more__btn-title:nth-child(2) {
   margin-left: -3px;
 }
 
 .more__btn .more__btn-title {
   margin-top: 15px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .more .more__suggestions {
@@ -51,7 +54,7 @@
 }
 
 .suggestion .suggestion__title {
-  font-size: 14px;
+  font-size: 12px;
   margin-top: 15px;
   opacity: 0.6;
 }

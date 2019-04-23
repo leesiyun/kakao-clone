@@ -4,37 +4,49 @@
 
 .profile__header {
   height: 70vh;
-  background-color: red;
+  background-image: url("https://www.sketchappsources.com/resources/source-images-plus1/material-design-icon-patterns-1.png");
   width: 100%;
   position: relative;
+  top: -106px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  align-items: center;
-  top: -106px;
 }
 
-.header .header__profile-icon,
-.profile__header .profile__status {
+.header__profile-icon {
+  color: #ffffff;
+  margin: 0px 10px;
+}
+
+.header__profile-icon .fa-times {
+  font-size: 18px;
+}
+
+.profile__status-bar-column {
+  z-index: 1;
   color: #ffffff;
 }
 
-.profile__header.profile__container {
+.profile__header .profile__header-container {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
   align-items: center;
+  position: relative;
+  top: 60px;
 }
 
-.profile__container img {
+.profile__header-container img {
   width: 100px;
   border-radius: 50%;
+  margin-bottom: 10px;
 }
 
 .profile__container {
   display: flex;
   flex-direction: column;
+  position: relative;
   align-items: center;
+  top: -30px;
 }
 
 .profile__email {
@@ -44,23 +56,27 @@
   padding: 4px 6px;
   border-radius: 10px;
   color: #656565;
-  margin-top: 10px;
 }
 
 .profile__actions {
   display: flex;
-  cursor: pointer;
 }
+
 .profile__action {
-  margin: 25px 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 30px 18px 0px 18px;
+  align-items: center;
+  cursor: pointer;
 }
 
 .profile__action-circle {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  background-color: #f2f2f2;
+  padding: 15px;
+  border-radius: 50%;
 }
 
 .profile__action-title {
   font-size: 12px;
+  margin-top: 5px;
 }

@@ -1,3 +1,8 @@
+.chats,
+.chat-screen {
+  margin: 130px 20px 0px 20px;
+}
+
 .chats-body,
 .chats-body .header-wrapper {
   /*padding: 0px 20px;*/
