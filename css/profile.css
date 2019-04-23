@@ -4,7 +4,8 @@
 
 .profile__header {
   height: 70vh;
-  background-image: url("https://www.sketchappsources.com/resources/source-images-plus1/material-design-icon-patterns-1.png");
+  background-image: url("../images/profilebg.png");
+  background-size: 200%;
   width: 100%;
   position: relative;
   top: -106px;
