@@ -1,0 +1,11 @@
+body {
+  color: #34495e;
+}
+
+.greetings__form,
+.greetings {
+  display: none;
+}
+.showing {
+  display: block;
+}
