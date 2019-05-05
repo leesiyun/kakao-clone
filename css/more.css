@@ -40,9 +40,10 @@
 
 .more__suggestion {
   display: inline-block;
-  margin-right: 41px;
+  margin-right: 38px;
+  text-align: center;
   position: relative;
-  font-size: 17px;
+  cursor: pointer;
 }
 
 .suggestion__icon {
@@ -69,9 +70,9 @@
   transform: scale(1);
   -ms-transform: scale(1);
   -webkit-transform: scale(1);
+  content: " ";
   width: 60px;
   height: 60px;
-  content: " ";
   border-radius: 100%;
   display: block;
   background: linear-gradient(#f6ab00, #ed8f03);
@@ -87,7 +88,7 @@
   transform: scale(2);
   -ms-transform: scale(2);
   -webkit-transform: scale(2);
-  color: f6ab00c;
+  color: #f6ab00;
   background: -webkit-linear-gradient(45deg, #f6ab00, #ed8f03);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
