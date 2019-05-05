@@ -28,34 +28,31 @@
 
 .more__title {
   border-top: 1px solid #f7f7f7;
-  padding-top: 15px;
+  padding-top: 20px;
   font-size: 14px;
   opacity: 0.8;
 }
 
 .more__suggestions-list {
   padding: 0;
-  margin: 20px;
+  margin: 1em;
 }
 
 .more__suggestion {
   display: inline-block;
-  margin-right: 41px;
+  margin-right: 43px;
   position: relative;
-  font-size: 17px;
+  font-size: 21px;
 }
 
 .suggestion__icon {
   color: #fff;
   position: absolute;
-  top: 22px;
-  left: 23px;
+  top: 21px;
+  left: 20px;
   transition: all 265ms ease-out;
 }
 
-.suggestion__icon.fa-maxcdn {
-  left: 22px;
-}
 .suggestion__title {
   display: flex;
   flex-direction: column;
@@ -84,12 +81,73 @@
 }
 
 .suggestion__icon-animation:hover i {
-  transform: scale(2);
-  -ms-transform: scale(2);
-  -webkit-transform: scale(2);
+  transform: scale(1.6);
+  -ms-transform: scale(1.6);
+  -webkit-transform: scale(1.6);
   color: f6ab00c;
   background: -webkit-linear-gradient(45deg, #f6ab00, #ed8f03);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 265ms ease-in;
 }
+
+/*.more .more__suggestions-list {
+  
+  display: flex;
+}
+
+.more .more__suggestion {
+  margin-right: 45px;
+  cursor: pointer;
+}
+
+.more__suggestions .suggestion__title {
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.suggestion__icon {
+  margin-bottom: 10px;
+}
+
+.make-done i {
+  transition: all 265ms ease-out;
+}
+
+.more__suggestion::before {
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  content: " ";
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  display: block;
+  background: linear-gradient(#f6ab00, #ed8f03);
+  box-shadow: rgba(0, 0, 0, 0.9) 0px 8px 16px -8px,
+    rgba(0, 0, 0, 0.2) 0px -6px 16px -6px;
+  transition: all 265ms ease-out;
+  width: 57px;
+  height: 57px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more__suggestion:hover::before {
+  transform: scale(0);
+  transition: all 265ms ease-in;
+}
+
+.more__suggestion:hover i {
+  transform: scale(2.2);
+  -ms-transform: scale(2.2);
+  -webkit-transform: scale(2.2);
+  color: #ed8f03;
+  background: -webkit-linear-gradient(45deg, #ff003c, #ed8f03);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 265ms ease-in;
+}
+*/
