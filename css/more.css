@@ -34,30 +34,27 @@
 }
 
 .more__suggestions-list {
-  padding: 0;
-  margin: 1em;
+  padding: 20px 15px;
 }
 
 .more__suggestion {
   display: inline-block;
-  margin-right: 43px;
-  position: relative;
-  font-size: 21px;
+  margin-right: 32px;
+  text-align: center;
+  cursor: pointer;
 }
 
 .suggestion__icon {
   color: #fff;
-  position: absolute;
-  top: 21px;
-  left: 20px;
   transition: all 265ms ease-out;
+  position: relative;
+  top: -37px;
 }
 
 .suggestion__title {
   display: flex;
   flex-direction: column;
   font-size: 12px;
-  margin-top: 15px;
 }
 .suggestion__icon-animation {
   display: inline-block;
@@ -70,8 +67,10 @@
   height: 60px;
   content: " ";
   border-radius: 100%;
-  display: block;
   background: linear-gradient(#f6ab00, #ed8f03);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transition: all 265ms ease-out;
 }
 
@@ -81,9 +80,9 @@
 }
 
 .suggestion__icon-animation:hover i {
-  transform: scale(1.6);
-  -ms-transform: scale(1.6);
-  -webkit-transform: scale(1.6);
+  transform: scale(2.2);
+  -ms-transform: scale(2.2);
+  -webkit-transform: scale(2.2);
   color: f6ab00c;
   background: -webkit-linear-gradient(45deg, #f6ab00, #ed8f03);
   -webkit-background-clip: text;
