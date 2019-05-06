@@ -35,12 +35,13 @@
 
 .more__suggestions-list {
   padding: 0;
+  list-style: none;
   margin: 1em;
 }
 
 .more__suggestion {
   display: inline-block;
-  margin-right: 23px;
+  margin: 0.15em;
   position: relative;
   font-size: 1.2em;
   cursor: pointer;
@@ -85,7 +86,7 @@
   -ms-transform: scale(2);
   -webkit-transform: scale(2);
   color: #f6ab00;
-  background: -webkit-linear-gradient(45deg, #f6ab00, #ed8f03);
+  background: -webkit-linear-gradient(#f6ab00, #ed8f03);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 265ms ease-in;
