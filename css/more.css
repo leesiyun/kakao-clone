@@ -2,13 +2,13 @@
   margin: 130px 20px 0px 20px;
 }
 
-.more .more__btn-list {
+.more__btn-list {
   padding: 25px 20px 20px 28px;
   display: flex;
+  justify-content: space-between;
 }
 
 .more__btn-icon i {
-  width: 10%;
   font-size: 50px;
 }
 
@@ -18,8 +18,7 @@
 }
 
 .more__btn-list .more__btn {
-  width: 10%;
-  margin-right: 62px;
+  width: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,30 +34,27 @@
 
 .suggestion__title {
   display: flex;
-  flex-direction: column;
   font-size: 12px;
   margin-top: 15px;
+  text-align: center;
 }
 
-.more__suggestion {
-  width: 400px;
-}
 .more__suggestions-list {
-  padding: 0;
-  list-style: none;
-  margin: 1em;
+  padding: 25px 20px 20px 28px;
+  display: flex;
+  justify-content: space-between;
 }
 .more__suggestions-list li {
+  width: 50px;
   display: inline-block;
-  margin: 0.15em;
   position: relative;
-  font-size: 1.2em;
+  font-size: 20px;
 }
 .more__suggestions-list i {
   color: #fff;
   position: absolute;
-  top: 21px;
-  left: 21px;
+  top: 16px;
+  left: 16px;
   transition: all 265ms ease-out;
 }
 .more__suggestions-list a {
@@ -69,8 +65,8 @@
   -ms-transform: scale(1);
   -webkit-transform: scale(1);
   content: " ";
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border-radius: 100%;
   display: block;
   background: linear-gradient(#f6ab00, #ed8f03);
@@ -81,9 +77,9 @@
   transition: all 265ms ease-in;
 }
 .more__suggestions-list a:hover i {
-  transform: scale(2.2);
-  -ms-transform: scale(2.2);
-  -webkit-transform: scale(2.2);
+  transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
   color: #f6ab00;
   background: -webkit-linear-gradient(#f6ab00, #ed8f03);
   -webkit-background-clip: text;
