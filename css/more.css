@@ -3,7 +3,7 @@
 }
 
 .more__btn-list {
-  padding: 25px 20px 20px 28px;
+  padding: 15px;
   display: flex;
   justify-content: space-between;
 }
@@ -18,7 +18,7 @@
 }
 
 .more__btn-list .more__btn {
-  width: 50px;
+  width: 55px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,7 +27,7 @@
 
 .more__title {
   border-top: 1px solid #f7f7f7;
-  padding-top: 15px;
+  padding: 15px 0px;
   font-size: 14px;
   opacity: 0.8;
 }
@@ -36,16 +36,16 @@
   display: flex;
   font-size: 12px;
   margin-top: 15px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .more__suggestions-list {
-  padding: 25px 20px 20px 28px;
+  padding: 15px;
   display: flex;
   justify-content: space-between;
 }
 .more__suggestions-list li {
-  width: 50px;
+  width: 55px;
   display: inline-block;
   position: relative;
   font-size: 20px;
@@ -53,10 +53,11 @@
 .more__suggestions-list i {
   color: #fff;
   position: absolute;
-  top: 16px;
-  left: 16px;
+  top: 18px;
+  left: 18px;
   transition: all 265ms ease-out;
 }
+
 .more__suggestions-list a {
   display: inline-block;
 }
@@ -65,8 +66,8 @@
   -ms-transform: scale(1);
   -webkit-transform: scale(1);
   content: " ";
-  width: 50px;
-  height: 50px;
+  width: 55px;
+  height: 55px;
   border-radius: 100%;
   display: block;
   background: linear-gradient(#f6ab00, #ed8f03);
@@ -77,9 +78,10 @@
   transition: all 265ms ease-in;
 }
 .more__suggestions-list a:hover i {
-  transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
+  padding: 1px;
+  transform: scale(1.7);
+  -ms-transform: scale(1.7);
+  -webkit-transform: scale(1.7);
   color: #f6ab00;
   background: -webkit-linear-gradient(#f6ab00, #ed8f03);
   -webkit-background-clip: text;
