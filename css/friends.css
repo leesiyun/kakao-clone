@@ -1,5 +1,9 @@
 .friends {
   margin: 130px 20px 0px 20px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .friends .friends__plus {

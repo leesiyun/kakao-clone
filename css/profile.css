@@ -5,13 +5,24 @@
 .profile__header {
   height: 70vh;
   background-image: url("../images/profilebg.png");
-  background-size: 200%;
+  background-size: 250%;
   width: 100%;
   position: relative;
   top: -106px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.profile {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .header__profile-icon {
@@ -66,7 +77,7 @@
 .profile__action {
   display: flex;
   flex-direction: column;
-  margin: 30px 18px 0px 18px;
+  margin: 25px 18px 0px 18px;
   align-items: center;
   cursor: pointer;
 }
@@ -79,5 +90,5 @@
 
 .profile__action-title {
   font-size: 12px;
-  margin-top: 5px;
+  margin-top: 15px;
 }

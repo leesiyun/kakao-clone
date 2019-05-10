@@ -6,8 +6,9 @@
 }
 
 .friend .friend__avatar {
-  width: 50px;
-  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
 }
 .friend__avatar:hover {
   animation: spin 1s linear infinite;
@@ -17,10 +18,7 @@
 
 .friend__avatar.g-avatar {
   width: 70px;
-}
-
-.friend__avatar.m-avatar {
-  width: 60px;
+  height: 70px;
 }
 
 .friend .friend__column {
@@ -54,7 +52,7 @@
 }
 
 .friend .friend__now-listening {
-  border: 1.5px solid #52e084;
+  border: 1.5px solid #08a95f;
   padding: 6px 12px;
   border-radius: 15px;
   font-size: 13px;

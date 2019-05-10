@@ -1,5 +1,9 @@
 .settings {
   margin: 112px 20px 0px 20px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .settings .settings__sections {
