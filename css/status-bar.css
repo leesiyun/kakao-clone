@@ -3,16 +3,15 @@
   width: 100%;
   left: 0px;
   top: 0px;*/
-  padding: 17px 15px;
+  padding: 17px 15px 15px 15px;
   display: flex;
   justify-content: space-between;
   font-size: 15px;
   color: #656565; /*opacity: 0.7;*/
-  -webkit-user-select: none; 
-  -moz-user-select: none; 
-  -ms-user-select: none; 
-  user-select: none; 
-}
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .status-bar i {
