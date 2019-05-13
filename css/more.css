@@ -40,7 +40,7 @@
   display: flex;
   font-size: 12px;
   margin-top: 15px;
-  /* text-align: center; */
+  justify-content: center;
 }
 
 .more__suggestions-list {
@@ -63,9 +63,12 @@
   transition: all 265ms ease-out;
 }
 
-.more__suggestions-list a {
-  display: inline-block;
+.more__suggestions-list .fa-github {
+  top: 16px;
+  left: 16px;
+  font-size: 24px;
 }
+
 .more__suggestions-list a:before {
   transform: scale(1);
   -ms-transform: scale(1);

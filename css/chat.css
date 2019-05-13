@@ -182,7 +182,7 @@
 
 .sent-message .message__bubble {
   border-bottom-right-radius: 0px;
-  background-image: linear-gradient(/*to right,*/ #ffafbd, #ffc3a0);
+  background-image: linear-gradient(/*to right,*/ #ffb75e, #ed8f03);
 }
 
 .message__timestamp {
