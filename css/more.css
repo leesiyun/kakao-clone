@@ -7,7 +7,7 @@
 }
 
 .more__btn-list {
-  padding: 20px 15px;
+  padding: 20px 10px;
   display: flex;
   justify-content: space-between;
 }
@@ -44,7 +44,7 @@
 }
 
 .more__suggestions-list {
-  padding: 15px;
+  padding: 15px 10px;
   display: flex;
   justify-content: space-between;
 }
@@ -70,7 +70,7 @@
 }
 
 .more__suggestions-list .fa-question {
-  top: 19px;
+  top: 18px;
   left: 19px;
 }
 
