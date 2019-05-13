@@ -59,6 +59,7 @@
   position: relative;
   align-items: center;
   top: -30px;
+  margin-bottom: 20px;
 }
 
 .profile__email {
