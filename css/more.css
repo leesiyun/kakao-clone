@@ -63,9 +63,9 @@
   transition: all 265ms ease-out;
 }
 
-.more__suggestions-list a {
+/* .more__suggestions-list a {
   display: inline-block;
-}
+} */
 .more__suggestions-list a:before {
   transform: scale(1);
   -ms-transform: scale(1);
