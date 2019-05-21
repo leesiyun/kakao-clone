@@ -1,0 +1,104 @@
+.edit__header-column {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.edit__profile-background {
+  margin: 105px 0px 0px;
+  padding: 85px 0px;
+  background-image: url("../images/profilebg.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit__profile-avater {
+  display: flex;
+  justify-content: center;
+  background-color: #fcfcfc;
+}
+
+.edit__profile-background i {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  font-size: 15px;
+  background-color: #fff;
+  border-radius: 50%;
+  color: gray;
+  opacity: 0.9;
+  left: 45vw;
+  top: 70px;
+}
+
+.edit__profile-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  bottom: 65px;
+}
+
+.edit__profile-container img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.edit__prifile-avater i {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  font-size: 15px;
+  background-color: #fff;
+  border-radius: 50%;
+  color: gray;
+  opacity: 0.9;
+  left: 80px;
+  bottom: 30px;
+}
+.edit__profile-title {
+  text-align: center;
+}
+
+.edit__profile-name {
+  position: relative;
+  bottom: 8px;
+  left: 10px;
+}
+
+.edit__profile-name i {
+  font-size: 10px;
+  color: #d1caca;
+}
+
+.edit__detail-edit {
+  position: relative;
+  background-color: #fcfcfc;
+  bottom: 40px;
+}
+.edit__column {
+  border-top: 1px solid #f7f7f7;
+  background-color: #fff;
+}
+
+.edit-list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 23px;
+}
+
+.edit-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 20px;
+  border-bottom: 1px solid #f7f7f7;
+}
+
+.enter-text {
+  color: gray;
+}
