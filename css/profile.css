@@ -3,7 +3,7 @@
 }
 
 .profile__header {
-  height: 138vmin;
+  height: 133vmin;
   background-image: url("../images/profilebg.png");
   background-size: 250%;
   width: 100%;
@@ -37,6 +37,14 @@
 .profile__status-bar-column {
   z-index: 1;
   color: #ffffff;
+}
+
+.status-message-container {
+  position: relative;
+  text-align: center;
+  bottom: 165px;
+  color: #fff;
+  font-size: 20px;
 }
 
 .profile__header .profile__header-container {

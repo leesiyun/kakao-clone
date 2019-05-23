@@ -44,9 +44,12 @@
         </header>
     <main class="profile">
         <header class="profile__header">
+          <div class="status-message-container">
+            <span class="js-statusMsg-text"></span>
+          </div>
         <div class="profile__header-container">
             <img src="images/avatar.jpeg" class="friend__avatar" alt="" />
-            <h3 class="profile__header-title">Lee siyun</h3>
+            <h3 class="profile__header-title js-profile-name-text">Lee siyun</h3>
           </div>
       </header>
       <div class="profile__container">
@@ -62,19 +65,23 @@
           My Chatroom
         </span>
       </div>
-      <div class="profile__action">
-        <span class="profile__action-circle">
-          <i class="fas fa-pencil-alt"></i>
-        </span>
-        <span class="profile__action-title">
-          Edit Profile
-        </span>
+      <a href="edit-profile.html">
+        <div class="profile__action">
+          <span class="profile__action-circle">
+            <i class="fas fa-pencil-alt"></i>
+          </span>
+          <span class="profile__action-title">
+            Edit Profile
+          </span>
+        </div>
       </div>
-    </div>
+      </a>
     </main>
     <div class="bigScreen">
       <span class="bigScreen__text">Please make your screen small</span>
     </div>
   </body>
   <script src="js/clock.js"></script>
+  <script src="js/edit-profile.js"></script>
+  <script src="js/edit-state-message.js"></script>
 </html>

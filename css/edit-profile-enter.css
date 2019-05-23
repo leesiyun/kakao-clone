@@ -1,0 +1,80 @@
+.edit-enter__body {
+  background-color: #f7f7f7;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.edit-enter-header {
+  align-items: center;
+}
+.edit-enter__header-column {
+  align-items: center;
+}
+
+.edit-enter__header-column i {
+  font-size: 30px;
+}
+
+.edit-enter__header-column span {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.color-gray {
+  color: gray;
+}
+
+.color-black {
+  color: black;
+}
+
+.edit-enter__header-title {
+  margin-left: 5px;
+}
+
+.edit-enter__main {
+  margin-top: 125px;
+}
+
+.edit-enter__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-enter__container span {
+  margin-top: 20px;
+  padding-left: 25px;
+}
+
+.edit-enter__container input {
+  margin-top: 10px;
+  font-size: 16px;
+  outline: none;
+  border: 0;
+}
+
+.edit-enter__container i {
+  position: relative;
+  color: gray;
+  cursor: pointer;
+}
+
+.name__edit input {
+  padding: 9px 0px 9px 20px;
+}
+
+.name__edit i {
+  left: 95%;
+  bottom: 25px;
+}
+
+.status-message__edit input {
+  padding: 25px 0px 20px 25px;
+}
+
+.status-message__edit i {
+  left: 95%;
+  bottom: 40px;
+}
