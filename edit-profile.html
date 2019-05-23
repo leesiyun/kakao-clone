@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>LeeSyunTalkTalk</title>
   </head>
-  <body>
+  <body class="edit-profile">
     <div class="header-wrapper">
       <div class="status-bar">
         <div class="status-bar__column">
@@ -39,71 +39,73 @@
         <div class="edit__header-column"></div>
       </header>
     </div>
-    <section class="edit__profile-background">
-      <i class="fas fa-camera"></i>
-    </section>
-    <section class="edit__profile-avater">
-      <div class="edit__profile-container">
-        <div class="edit__prifile-avater">
-          <img src="images/avatar.jpeg" class="friend__avatar" alt="" />
-          <i class="fas fa-camera"></i>
-        </div>
-        <a href="edit-profile-name.html">
-          <div class="edit__profile-name">
-            <span class="edit__profile-title js-edit__profile-name-text">
-              Lee siyun
-            </span>
-            <i class="fas fa-pencil-alt"></i>
+    <main>
+      <section class="edit__profile-background">
+        <i class="fas fa-camera"></i>
+      </section>
+      <section class="edit__profile-avater">
+        <div class="edit__profile-container">
+          <div class="edit__prifile-avater">
+            <img src="images/avatar.jpeg" class="friend__avatar" alt="" />
+            <i class="fas fa-camera"></i>
           </div>
-        </a>
-      </div>
-    </section>
+          <a href="edit-profile-name.html">
+            <div class="edit__profile-name">
+              <span class="edit__profile-title js-profile-name-text"> </span>
+              <i class="fas fa-pencil-alt"></i>
+            </div>
+          </a>
+        </div>
+      </section>
 
-    <section class="edit__detail-edit">
-      <div class="edit__column">
-        <li class="edit-list">
-          <ul class="edit-item">
-            <span>Status Message</span>
-            <span class="js-statue-message enter-text"></span>
-          </ul>
-          <ul class="edit-item">
-            <span>Status</span>
-          </ul>
-          <ul class="edit-item">
-            <span>ProfileCon</span>
-          </ul>
-        </li>
-      </div>
-      <div class="edit__column">
-        <li class="edit-list">
-          <ul class="edit-item">
-            <span>Phone Number</span>
-            <span class="enter-text">+82 10-9618-3466</span>
-          </ul>
-          <ul class="edit-item">
-            <span>Email</span>
-            <span class="enter-text">siyun1221@gmail.com</span>
-          </ul>
-          <ul class="edit-item">
-            <span>Manage Kakao Account</span>
-          </ul>
-        </li>
-      </div>
-      <div class="edit__column">
-        <li class="edit-list">
-          <ul class="edit-item">
-            <span>KakaoTalk ID</span>
-            <span class="enter-text">si2yun</span>
-          </ul>
-          <ul class="edit-item">
-            <span>QR Code</span>
-          </ul>
-          <ul class="edit-item">
-            <span>Manage Friends</span>
-          </ul>
-        </li>
-      </div>
-    </section>
+      <section class="edit__detail-edit">
+        <div class="edit__column">
+          <li class="edit-list">
+            <a href="edit-statusMsg.html">
+              <ul class="edit-item">
+                <span>Status Message</span>
+                <span class="js-statusMsg-text enter-text"> </span>
+              </ul>
+            </a>
+            <ul class="edit-item">
+              <span>Status</span>
+            </ul>
+            <ul class="edit-item">
+              <span>ProfileCon</span>
+            </ul>
+          </li>
+        </div>
+        <div class="edit__column">
+          <li class="edit-list">
+            <ul class="edit-item">
+              <span>Phone Number</span>
+              <span class="enter-text">+82 10-9618-3466</span>
+            </ul>
+            <ul class="edit-item">
+              <span>Email</span>
+              <span class="enter-text">siyun1221@gmail.com</span>
+            </ul>
+            <ul class="edit-item">
+              <span>Manage Kakao Account</span>
+            </ul>
+          </li>
+        </div>
+        <div class="edit__column">
+          <li class="edit-list">
+            <ul class="edit-item">
+              <span>KakaoTalk ID</span>
+              <span class="enter-text">si2yun</span>
+            </ul>
+            <ul class="edit-item">
+              <span>QR Code</span>
+            </ul>
+            <ul class="edit-item">
+              <span>Manage Friends</span>
+            </ul>
+          </li>
+        </div>
+      </section>
+    </main>
     <nav class="nav">
       <ul class="nav__list">
         <li class="list-item">
@@ -134,4 +136,5 @@
     </div>
   </body>
   <script src="js/clock.js"></script>
+  <script src="js/edit-profile.js"></script>
 </html>

@@ -1,6 +1,14 @@
+.edit-profile {
+  background-color: #f7f7f7;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 .edit__header-column {
   font-size: 18px;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 .edit__profile-background {
@@ -13,9 +21,10 @@
 }
 
 .edit__profile-avater {
+  position: relative;
   display: flex;
-  justify-content: center;
-  background-color: #fcfcfc;
+  left: 40vw;
+  top: 50%;
 }
 
 .edit__profile-background i {
@@ -61,14 +70,12 @@
   left: 80px;
   bottom: 30px;
 }
-.edit__profile-title {
-  text-align: center;
-}
 
 .edit__profile-name {
   position: relative;
-  bottom: 8px;
-  left: 10px;
+  bottom: 14px;
+  text-align: center;
+  margin-left: 6px;
 }
 
 .edit__profile-name i {
@@ -78,7 +85,6 @@
 
 .edit__detail-edit {
   position: relative;
-  background-color: #fcfcfc;
   bottom: 40px;
 }
 .edit__column {

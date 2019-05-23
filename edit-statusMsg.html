@@ -34,9 +34,11 @@
           </div>
         </a>
         <div class="edit-enter__header-column">
-          <h1 class="edit-enter__header-title header__title">Name</h1>
+          <h1 class="header__title">Status Message</h1>
         </div>
-        <div class="edit-enter__header-column color-gray js-name__okBtn">
+        <div
+          class="edit-enter__header-column color-gray js-status-message__okBtn"
+        >
           <span>
             OK
           </span>
@@ -44,17 +46,16 @@
       </header>
     </div>
     <main class="edit-enter__main">
-      <div class="edit-enter__container name__edit">
+      <div class="edit-enter__container status-message__edit">
         <span>
-          Enter your name.
+          Enter a status message.
         </span>
         <input
           type="text"
-          class="js-name__input"
-          placeholder="Enter your name."
+          class="js-status-message__input"
           spellcheck="false"
         />
-        <i class="fas fa-times-circle js-name__input-delBtn"></i>
+        <i class="fas fa-times-circle js-status-message__delBtn"></i>
       </div>
     </main>
     <div class="bigScreen">
@@ -62,5 +63,5 @@
     </div>
   </body>
   <script src="js/clock.js"></script>
-  <script src="js/edit-profile-name.js"></script>
+  <script src="js/edit-state-message.js"></script>
 </html>
