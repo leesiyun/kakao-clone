@@ -3,8 +3,8 @@
 }
 
 .profile__header {
-  height: 133vmin;
-  background-image: url("../images/profilebg.png");
+  height: 156vmin;
+  background-image: url('../images/profilebg.png');
   background-size: 250%;
   width: 100%;
   position: relative;
